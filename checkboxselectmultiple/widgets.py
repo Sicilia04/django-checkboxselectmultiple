@@ -14,8 +14,8 @@ class CheckboxSelectMultiple(forms.SelectMultiple):
             'checkboxselectmultiple/checkboxselectmultiple.js',
         )
 
-    def render(self, name, value, attrs, choices=()):
+    def render(self, name, value, attrs=None, renderer=None):
         if attrs is None:
             attrs = {}
         attrs['data-checkboxselect'] = True
-        return super(CheckboxSelectMultiple, self).render(name, value, attrs, choices)
+        return super(CheckboxSelectMultiple, self).render(name, value, attrs, renderer)

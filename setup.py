@@ -10,8 +10,8 @@ def read(fname):
 
 setup(
     name="django-checkboxselectmultiple",
-    version="0.0.1",
-    url='http://github.com/MagicSolutions/django-checkboxselectmultiple',
+    version="0.0.2",
+    url='https://github.com/Sicilia04/django-checkboxselectmultiple',
     description="Form widget for using multiple checboxes instead of <select multiple>",
     long_description=read('README.rst'),
     author='Venelin Stoykov',
